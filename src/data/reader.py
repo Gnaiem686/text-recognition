@@ -158,7 +158,7 @@ class Dataset():
         # for each partition, add the (full) image path to dt and the text to gt
 
         # read the xlsx file
-        xlsx_file_path = os.path.join(dataset_path, "8k.xlsx")
+        xlsx_file_path = os.path.join(dataset_path, "10k.xlsx")
         file_data = pd.read_excel(xlsx_file_path)
         # filter out rows that do not have image path
         file_data = file_data[file_data['image'].notna()]
