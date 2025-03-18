@@ -147,7 +147,7 @@ class Dataset():
         return partition
 
     def _printed_arabic(self):
-        dataset_path = "/Users/i311821/Downloads/DATA"
+        dataset_path = "C:\Users\mohamad\Desktop\DATA"
         # the dataset has xlsx file that contains 2 columns: image and text. image is the path to the text line image and text is the text in the image
         # text line images are located in same directory as the xlsx file.
         # example:image: book\page101\line_1.png  text:فرنسا تحارب الإسلام علنا في الجزائر
